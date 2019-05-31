@@ -85,6 +85,7 @@ catkin_package(
 ###########
 ## Build ##
 ###########
+include_directories(/usr/include/libirimager)
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
